@@ -4,7 +4,7 @@
 __pycache__
 runs
 datasets/mnist160
-yolov8m-cls.pt
-yolov8n.pt
-weights/best.onnx
-weights/best.pt
+datasets/17flowers
+
+*.pt
+*.onnx

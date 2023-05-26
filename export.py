@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Export to ONNX script for YOLOv8 classification model on PlantsAI dataset")
+    parser = argparse.ArgumentParser(description="Export to ONNX script for YOLOv8 classification model on PlantsAI")
     parser.add_argument('--weights', type=str, default='runs/classify/train/weights/best.pt', help='initial weights path')
     args = parser.parse_args()
     print(args)

@@ -1,6 +1,6 @@
 # PlantsAI Classification
 
-This repository contains the code for training a YOLOv8 classification model on PlantsAI dataset and exporting it to ONNX. The model is then used for inference on a sample image. 
+This repository contains the code for training a YOLOv8 classification model on PlantsAI and exporting it to ONNX. The model is then used for inference on a sample image. 
 
 ## Installation
 
@@ -26,7 +26,7 @@ Download PlantsAI dataset for training and evaluation from [Google Drive](#)
 
 Run command below to train and evaluate the model on PlantsAI dataset. .
 ```bash
-python train.py
+python train.py --dataset plantsai
 ```
 The model will be saved to `runs/classify/train/weights/best.pt`
 
