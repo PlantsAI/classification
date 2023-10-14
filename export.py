@@ -9,7 +9,7 @@ if __name__ == '__main__':
     print(args)
 
     # Load a model
-    model = YOLO(args.weights)
+    model = YOLO(args.weights, task='classify')
 
     # Export the model
     model.export(format='onnx')
