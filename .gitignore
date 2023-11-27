@@ -3,6 +3,7 @@
 .idea
 __pycache__
 runs
+wandb
 datasets/mnist160
 datasets/17flowers
 
